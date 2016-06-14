@@ -5,3 +5,6 @@ imgs
 coreos
 corectl
 tmp.*
+.idea
+*.iml
+.idea/
