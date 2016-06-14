@@ -224,6 +224,8 @@ func (running *sessionContext) boot(slt int, rawArgs *viper.Viper) (err error) {
 		return
 	}
 
+	fmt.Printf("launching %v", c)
+
 	go func() {
 		timeout := time.After(30 * time.Second)
 		select {
